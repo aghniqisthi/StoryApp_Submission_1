@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_new_story">Tambahkan Story Baru</string>
+    <string name="story_description">Deskripsi Story</string>
+    <string name="add_picture_from">Tambahkan Gambar Dari:</string>
+    <string name="add_story">Tambah Story</string>
+    <string name="welcome">Selamat Datang!</string>
+    <string name="email_address">Alamat Email</string>
+    <string name="password">Kata Sandi</string>
+    <string name="name">Nama</string>
+    <string name="submit">Daftar</string>
+    <string name="fill_all_data">Isi Seluruh Data</string>
+    <string name="invalid_email">Alamat Email Tidak Valid</string>
+    <string name="required_data">Data Wajib Diisi</string>
+    <string name="pass_min_8">Kata Sandi Minimal 8 Karakter</string>
+    <string name="pass_min_1_up">Kata Sandi Minimal 1 Karakter Kapital</string>
+    <string name="pass_min_1_low">Kata Sandi Minimal 1 Karakter Tidak Kapital</string>
+    <string name="pass_min_1_special_char">Kata Sandi Minimal 1 Karakter Spesial (#@%*&amp;_-)</string>
+    <string name="please_up_ur_pic">Silakan masukkan berkas gambar terlebih dahulu.</string>
+    <string name="choose_pic">Silakan Pilih Gambar</string>
+    <string name="didnt_get_permission">Tidak Mendapat Perizinan</string>
+</resources>

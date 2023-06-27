@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.AddStoryActivity">
+
+    <TextView
+    android:id="@+id/textView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="25dp"
+    android:fontFamily="sans-serif-black"
+    android:text="@string/add_story"
+    android:textAlignment="center"
+    android:textColor="@color/black"
+    android:textSize="30sp"
+    app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="25dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:alpha="0"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/baseline_image_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="@string/add_picture_from" />
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:alpha="0"
+        android:id="@+id/iv_add_gallery"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/add_from_gallery"
+        android:src="@drawable/baseline_photo_library_24"
+        app:layout_constraintEnd_toEndOf="@+id/textviewaddfrom"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textviewaddfrom" />
+
+    <ImageView
+        android:alpha="0"
+        android:id="@+id/iv_add_camera"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="@string/add_from_camera"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/round_photo_camera_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textviewaddfrom"
+        app:layout_constraintTop_toBottomOf="@+id/textviewaddfrom" />
+
+    <TextView
+        android:textAlignment="center"
+        android:alpha="0"
+        android:id="@+id/textviewaddfrom"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/add_picture_from"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card_img" />
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:alpha="0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_add_camera" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout_desc"
+        android:alpha="0"
+        android:textColor="@color/black"
+        android:layout_margin="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_username"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ed_add_description"
+            android:inputType="textMultiLine"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/story_description" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_add"
+        android:alpha="0"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/blue"
+        android:layout_margin="25dp"
+        android:text="@string/add_new_story"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

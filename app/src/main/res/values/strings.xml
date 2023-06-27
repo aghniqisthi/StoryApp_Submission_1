@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name" translatable="false">Dicoding Story</string>
+    <string name="tab_login" translatable="false">Login</string>
+    <string name="tab_regis" translatable="false">Register</string>
+    <string name="add_new_story">Add New Story</string>
+    <string name="story_description">Story Description</string>
+    <string name="add_picture_from">Add Picture From :</string>
+    <string name="add_story">Add Story</string>
+    <string name="welcome">Welcome!</string>
+    <string name="detail_story" translatable="false">Detail Story</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="submit">Submit</string>
+    <string name="fill_all_data">Fill All Data</string>
+    <string name="invalid_email">Invalid Email Address</string>
+    <string name="required_data">Required Data</string>
+    <string name="pass_min_8">Password must be at least 8 Characters</string>
+    <string name="pass_min_1_up">Password must be at least 1 Uppercase</string>
+    <string name="pass_min_1_low">Password must be at least 1 Lowercase</string>
+    <string name="pass_min_1_special_char">Password must be at least 1 Special Characters (#@%*&amp;_-)</string>
+    <string name="please_up_ur_pic">Please Upload Your Picture First</string>
+    <string name="choose_pic">Choose a Picture</string>
+    <string name="didnt_get_permission">Didn\'t Get Permission</string>
+    <string name="add_from_gallery">add from gallery</string>
+    <string name="add_from_camera">add from camera</string>
+    <string name="tab_authentication">tab authentication</string>
+    <string name="switch_camera">switch camera</string>
+    <string name="back">back</string>
+    <string name="image_detail_story">image detail story</string>
+    <string name="image_splash">image splash</string>
+    <string name="translate">translate</string>
+    <string name="logout">logout</string>
+</resources>
